@@ -1,0 +1,11 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/max-circular-subarray-sum-1587115620/1">Max Circular Subarray Sum</a></h2><h3>Difficulty Level : Difficulty: Hard</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 14pt;">You are given a circular array&nbsp;<strong><code data-start="48" data-end="55">arr[]</code>&nbsp;</strong>of integers, find the&nbsp;<strong>maximum</strong>&nbsp;possible sum of a non-empty&nbsp;<strong>subarray</strong>. In a circular array, the subarray can start at the end and wrap around to the beginning. Return the maximum non-empty subarray sum, considering both non-wrapping and wrapping cases.</span></p>
+<p><span style="font-size: 14pt;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 14pt;"><strong>Input: </strong>arr[] = [8, -8, 9, -9, 10, -11, 12]
+<strong>Output: </strong>22<strong>
+Explanation: </strong>Starting from the last element of the array, i.e, 12, and moving in a circular fashion, we have max subarray as 12, 8, -8, 9, -9, 10, which gives maximum sum as 22.</span></pre>
+<pre><span style="font-size: 14pt;"><strong>Input: </strong>arr[] = [10, -3, -4, 7, 6, 5, -4, -1]
+<strong>Output: </strong>23<strong>
+Explanation: </strong>Maximum sum of the circular subarray is 23. The subarray is [7, 6, 5, -4, -1, 10].<br></span></pre>
+<pre><span style="font-size: 14pt;"><strong>Input: </strong>arr[] = [5, -2, 3, 4]</span><br><span style="font-size: 14pt;"><strong>Output: </strong>12<strong>
+Explanation: </strong>The circular subarray [3, 4, 5] gives the maximum sum of 12.</span></pre>
+<p><span style="font-size: 14pt;"><strong>Constraints:</strong><br>1 ≤ arr.size() ≤ 10<sup>5</sup><br>-10<sup>4 </sup>≤ arr[i] ≤ 10<sup>4</sup></span></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Amazon</code>&nbsp;<code>Microsoft</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Arrays</code>&nbsp;<code>Data Structures</code>&nbsp;<code>Kadane</code>&nbsp;<code>Algorithms</code>&nbsp;
